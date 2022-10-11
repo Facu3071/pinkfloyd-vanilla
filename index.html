@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="styles.css">
+  <!--   FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <title>Pink floyd</title>
+</head>
+
+<body>
+  <header id="home">
+    <nav class="nav">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="#home">Pink Floyd</a>
+          <button type="button" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="links-container">
+          <div class="links">
+            <a href="#home" class="scroll-link">Home</a>
+            <a href="#who" class="scroll-link">Who is pink floyd?</a>
+            <a href="#memberss" class="scroll-link">Members</a>
+            <a href="#discographyy" class="scroll-link">Discography</a>
+
+          </div>
+        </div>
+        <div class="social-media">
+          <a href="https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9" target="_blank">
+            <i class="fa-brands fa-spotify"></i>
+          </a>
+          <a href="yhttps://www.youtube.com/channel/UCY2qt3dw2TQJxvBrDiYGHdQ" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://www.instagram.com/pinkfloyd" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="banner-container">
+        <h1>Pink floyd</h1>
+        <p class="phrase">No one deserves to die without haven't heard to a great band.
+        </p>
+
+      </div>
+    </div>
+  </header>
+  <section class="section" id="who">
+    <h2>Who is Pink Floyd?</h2>
+    <div class="about-center section-center">
+      <article class="about-img">
+        <img src="/src/pink-floyd.jpg" alt="Pink floyd">
+      </article>
+      <article class="about">
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="history">History</button>
+          <button class="tab-btn" data-id="members">Band members</button>
+          <button class="tab-btn" data-id="discography">Discography</button>
+        </div>
+        <article class="about-content">
+          <!--       single item -->
+          <div class="content active" id="history">
+            <h4>History</h4>
+            <p>
+              Pink Floyd are an English rock band formed in London in 1965. Gaining an early following as one of the
+              first British
+              psychedelic groups, they were distinguished by their extended compositions, sonic experimentation,
+              philosophical
+              lyrics
+              and elaborate live shows. They became a leading band of the progressive rock genre, cited by some as the
+              greatest
+              progressive rock band of all time.
+            </p>
+          </div>
+          <!--      end of single item -->
+          <!--       single item -->
+          <div class="content" id="members">
+            <h4>Band Members</h4>
+            <ul>
+              <li>Syd Barrett- lead and rhythm guitars, vocals</li>
+              <li>David Gilmour - lead and rhythm guitars, vocals, bass, keyboards, synthesisers</li>
+              <li>Roger Waters - bass, vocals, rhythm guitar, synthesisers</li>
+              <li>Richard Wright - keyboards, piano, organ, synthesisers, vocals</li>
+              <li>Nick Mason - drums, percussion, vocals</li>
+            </ul>
+
+          </div>
+          <!--      end of single item -->
+          <!--       single item -->
+          <div class="content" id="discography">
+            <h4>Discography</h4>
+            <ul>
+              <li>The Piper at the Gates of Dawn</li>
+              <li>A Saucerful of Secrets</li>
+              <li>More</li>
+              <li>Ummagumma</li>
+              <li>Atom Heart Mother</li>
+              <li>Meddle</li>
+              <li>Obscured by clouds</li>
+              <li>The dark side of the moon</li>
+              <li>Wish you were here</li>
+              <li>Animals</li>
+              <li>The wall</li>
+              <li>the final cut</li>
+              <li>a momentary lapse of reason</li>
+              <li>the division bell</li>
+              <li>the endless river</li>
+            </ul>
+          </div>
+          <!--      end of single item -->
+        </article>
+      </article>
+    </div>
+  </section>
+  <section class="section" id="memberss">
+    <div class="review-center">
+      <h2>Members</h2>
+      <div class="review-container">
+        <div class="img-container">
+          <img id="img" src="/src/roger.jpg" alt="Roger">
+        </div>
+        <h3 id="name">Roger Waters</h3>
+        <h4 id="instrument">Bass</h4>
+        <div class="info" id="info">
+          George Roger Waters is an English musician, singer-songwriter and composer. In 1965, he co-founded the
+          progressive rock
+          band Pink Floyd.
+        </div>
+        <div class="btn-container-review">
+          <button type="button" class="btn btn-left">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button type="button" class="btn btn-right">
+            <i class="fa-solid fa-arrow-right"></i>
+
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  discography -->
+  <section class="section" id="discographyy">
+    <div class="discography">
+      <div class="title-disc">
+        <h2>Discography</h2>
+      </div>
+      <div class="btn-container-disc">
+      </div>
+      <div class="section-album">
+      </div>
+    </div>
+  </section>
+
+  <button type="button" class="button-top hidden">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  <footer class="footer">
+    <div class="my-socials">
+      <p>Made by Facu3071</p>
+      <a href=""><i class="fa-brands fa-github"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+  <script src="/app.js"></script>
+</body>
+
+</html>
